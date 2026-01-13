@@ -6,7 +6,7 @@
 
 ## Instruções para execução do programa:
 
-Dentro da pasta grafos, encontra-se alguns grafos em que cada um contempla dois arquivos: Nodes.csv e Edges.csv. O primeiro arquivo representa os nós de um grafo, com seus números de identificação e coordenadas de espaço x e y. O segundo arquivo representa as arestas de um grafo, com os dois números de cada aresta representando os identificadores dos nós que a aresta conecta. O peso de cada aresta é definido pela distância dos nós pertencentes as arestas a partir das coordenadas x e y.
+Dentro da pasta grafos, encontra-se alguns grafos em que cada um contempla dois arquivos: Nodes.csv e Edges.csv. O primeiro arquivo representa os nós de um grafo, com seus números de identificação e coordenadas de espaço x e y. O segundo arquivo representa as arestas de um grafo, com os dois números de cada aresta representando os identificadores dos nós que a aresta conecta. O peso de cada aresta é definido pela distância dos dois nós conectados a partir das coordenadas x e y.
 
 Para o programa executar os algoritmos de Prim e de Kruskal a partir de um arquivo .csv de entrada. Pode-se fazer de duas maneiras
 - digitar o seguinte comando no terminal: make runN
